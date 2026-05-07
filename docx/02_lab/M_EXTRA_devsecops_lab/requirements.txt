@@ -1,0 +1,8 @@
+# Dipendenze volutamente VULNERABILI per il lab DevSecOps.
+# pip-audit deve segnalare CVE in tutte queste.
+
+flask==2.0.0
+requests==2.20.0
+pyyaml==5.1
+jinja2==2.11.0
+werkzeug==2.0.0
