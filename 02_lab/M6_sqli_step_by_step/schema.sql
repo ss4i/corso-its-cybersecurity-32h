@@ -1,0 +1,11 @@
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    email TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL,
+    saldo REAL DEFAULT 0
+);
+
+CREATE TABLE messaggi_segreti (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    contenuto TEXT NOT NULL
+);
